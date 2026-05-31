@@ -1,0 +1,102 @@
+    * {
+        font-family: Playwrite GB J;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+    body {
+
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(piqsels.com-id-jsemj.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .container {
+        width: 90%;
+        height: 90%;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.707), rgba(0, 0, 0, 0.893));
+        backdrop-filter: blur(5px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        overflow: hidden;
+        padding: 40px;
+    }
+
+    .left-side {
+        width: 40%;
+        color: white;
+    }
+
+    .left-side h1 {
+        font-size: 45px;
+        margin-bottom: 20px;
+    }
+
+    .left-side p {
+        color: #cccccccc;
+        line-height: 1.6;
+    }
+
+    .right-side {
+
+        width: 40%;
+        margin-left: 50px;
+    }
+
+    .right-side h2 {
+        color: white;
+        margin-bottom: 30px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    input {
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+        padding: 15px 5px;
+        margin-bottom: 20px;
+        color: white;
+        transition: all 0.5s;
+    }
+
+    input:hover {
+        border-bottom: 1px solid rgb(255, 255, 255);
+    }
+
+    button {
+        margin: 15px;
+        color: black;
+        font-weight: bold;
+        background-color: #42d9d2;
+        border: none;
+        outline: none;
+        padding: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 20px;
+        width: 70%;
+        position: absolute;
+        bottom: -80px;
+        right: 50px;
+        transition: all 1s;
+    }
+
+    button:hover {
+        filter: brightness(50%);
+    }
